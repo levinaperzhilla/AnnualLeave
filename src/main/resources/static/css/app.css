@@ -1,0 +1,94 @@
+    html{
+      scroll-behavior: smooth;
+    }
+    @font-face{
+      font-family:Logo;
+      src: url("fonts/sirens.otf");
+    }
+    @font-face{
+      font-family:Dosis;
+      src: url("fonts/dosis.ttf");
+    }
+    @font-face{
+      font-family:Signika;
+      src: url("fonts/signika1.ttf");
+    }
+    @font-face{
+      font-family:Misty;
+      src: url("fonts/misty.ttf");
+    }
+    body{
+      background-color: #89cff0;
+      margin: 6px 0 4px 0;
+    }
+
+    .ribbon{
+      background-color: #89cff0;
+      box-shadow: 0 3px 3px -3px rgba(0,0,0,.3);
+      width: 100%;
+      overflow: hidden;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px;
+      font-family:Misty;
+
+    }
+    .ribbon a{
+      float:right;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size:16px;
+    }
+
+    #icon{
+      float:left;
+      color:white;
+      font-family:Logo;
+      font-size:32px;
+      padding: 8px 10px;
+    }
+    button{
+      padding: 8px 22px;
+      margin-top: 20px;
+      margin-left: 105px;
+      color: white;
+      border: none;
+      background-color: #89cff0;
+      font-size:15px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition-duration: 0.4s;
+      outline:none;
+    }
+    button:hover{
+      box-shadow: 0 3px 3px -1px rgba(0,0,0,0.3);
+    }
+    button:active{
+      transform: translateY(3px);
+    }
+    .container{
+      width: 1048px;
+      height: 120px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 70px;
+    }
+    .column {
+      float: left;
+      width: 320px;
+      height: 200px;
+      background-color: white;
+      margin-top: 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 5px;
+      padding-top: 40px;
+    }
+    .tabText {
+      color: #89cff0;
+      font-family: Signika;
+      font-size: 35px;
+      margin: auto;
+      text-align: center;
+    }
